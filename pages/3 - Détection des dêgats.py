@@ -93,5 +93,5 @@ if file_upload is not None:
         st.session_state["points"] = points.to_dict()
 
 tab_image.write(''' Exemple d'image détectée''')
-tab_image.image('Exemple-image.png')
+tab_image.image('Exemple-Image.png')
 
